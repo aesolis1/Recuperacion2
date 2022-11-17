@@ -1,0 +1,96 @@
+address{
+    width: auto;
+    height: 1000px;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Learn{
+    color: var(--color6);
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;   
+}
+.video60{
+    width: auto;
+    height: 715px;
+}
+@media screen and (max-width:1920px) {
+    body{
+
+    }
+}
+
+@media screen and (max-width:1440px) {
+    body{
+
+    }
+}
+@media screen and (max-width:1152px) {
+    body{
+
+    }
+    address{
+        width: auto;
+        height: 520px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Learn{
+        color: rgb(73, 73, 73);
+        font-style: normal;
+        font-size: 38px;
+        text-align: center;   
+    }
+    .video60{
+        width: auto;   
+        height: 400px;   
+    }
+    
+}
+@media screen and (max-width:768px) {
+    body{
+
+    }
+    address{
+        width: auto;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Learn{
+        color: rgb(73, 73, 73);
+        font-style: normal;
+        font-size: 38px;
+        text-align: center;   
+    }
+    .video60{
+        width: auto;   
+        height: 350px;   
+    }
+}
+@media screen and (max-width:320px) {
+    body{
+
+    }
+    address{
+        width: auto;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Learn{
+        color: rgb(73, 73, 73);
+        font-style: normal;
+        font-size: 25px;
+    }
+    .video60{
+        width: auto;   
+        height: 150px;   
+    }
+}

@@ -1,0 +1,421 @@
+.partfinal{
+    width: auto;
+    height: 10px;
+    margin-top: 8rem;
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--color6);
+}
+.partfinal h1{
+    width: auto;
+    height: 64px;
+    margin-left: 50rem;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 64px;
+}
+.section{
+    width: 1920px;
+    height: 900px;
+    padding: 2rem 4rem;
+}
+.final{
+    width: auto;
+    height: 690px;
+    display: flex;
+    align-items: center;
+
+}
+.miniparrafo{
+    width: 700px;
+    font-size: 45px;
+    margin-left: 15rem;
+    font-weight: 400;
+}
+
+.numero{
+    margin-top: 10rem;
+    width: 1000px;
+    margin-left: 15rem;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Rubik";
+    font-style: normal;
+    line-height: 100%;
+
+}
+.correo{
+    width: 1000;
+    margin-left: 15rem;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Rubik";
+    font-style: normal;
+    line-height: 100%;
+}
+.direccion{
+    width: 1000;
+    margin-left: 15rem;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Rubik";
+    font-style: normal;
+    line-height: 100%;
+}
+
+.imagengr{
+    margin: 2rem;
+    margin-left: 0rem;
+    width: 850px;
+    height: 640px;
+    flex-direction: row;
+}
+.send{
+    width: 600px;
+    height: 640px;
+}
+
+@media screen and (max-width:1920px) {
+    body{
+
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .partfinal{
+        width: auto;
+        height: 10px;
+        margin-top: 8rem;
+        padding: 2rem 0rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: var(--color6);
+    }
+    .partfinal h1{
+        width: auto;
+        height: 64px;
+        margin-left: 22rem;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 64px;
+    }
+    .section{
+        width: 1920px;
+        height: 900px;
+        padding: 2rem 4rem;
+    }
+    .final{
+        width: auto;
+        height: 690px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .miniparrafo{
+        width: 700px;
+        font-size: 35px;
+        margin-left: 2rem;
+        font-weight: 400;
+    }
+    
+    .numero{
+        margin-top: 10rem;
+        width: 750px;
+        margin-left: 2rem;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    
+    }
+    .correo{
+        width: 750px;
+        margin-left: 2rem;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    .direccion{
+        width: 750px;
+        margin-left: 2rem;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    
+    .imagengr{
+        margin: 2rem;
+        margin-left: 0rem;
+        width: 850px;
+        height: 640px;
+        flex-direction: row;
+    }
+    .send{
+        width: 600px;
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .partfinal{
+        width: auto;
+        height: 10px;
+        margin-top: 50rem;
+        padding: 2rem 0rem;
+        display: flex;
+        flex-direction: row;
+        color: var(--color6);
+    }
+    .partfinal h1{
+        width: auto;
+        height: 64px;
+        margin-left: 2rem;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 64px;
+    }
+    .section{
+        width: 1920px;
+        height: 900px;
+        padding: 2rem 4rem;
+    }
+    .final{
+
+        width: auto;
+        height: 690px;
+        display: flex;
+        flex-direction: column;
+    }
+    .miniparrafo{
+        width: 450px;
+        font-size: 25px;
+        margin-left: 0rem;
+        font-weight: 400;
+        flex-direction: column;
+    }
+    
+    .numero{
+        margin-top: 2rem;
+        width: 500px;
+        margin-left: 0rem;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    
+    }
+    .correo{
+        width: 500px;
+        margin-left: 0rem;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    .direccion{
+        width: 500px;
+        margin-left: 0rem;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    
+    .imagengr{
+        margin: 2rem;
+        margin-left: 45rem;
+        width: 850px;
+        height: 640px;
+        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+    }
+    .send{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .partfinal{
+        width: auto;
+        height: 10px;
+        margin-top: 65rem;
+        padding: 2rem 0rem;
+        display: flex;
+        flex-direction: row;
+        color: var(--color6);
+    }
+    .partfinal h1{
+        width: auto;
+        height: 64px;
+        margin-left: 2rem;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 64px;
+    }
+    .section{
+        width: 1920px;
+        height: 900px;
+        padding: 2rem 4rem;
+    }
+    .final{
+
+        width: auto;
+        height: 690px;
+        display: flex;
+        flex-direction: column;
+    }
+    .miniparrafo{
+        width: 450px;
+        font-size: 25px;
+        margin-left: 0rem;
+        font-weight: 400;
+        flex-direction: column;
+    }
+    
+    .numero{
+        margin-top: 2rem;
+        width: 500px;
+        margin-left: 0rem;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    
+    }
+    .correo{
+        width: 500px;
+        margin-left: 0rem;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    .direccion{
+        width: 500px;
+        margin-left: 0rem;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    
+    .imagengr{
+        margin: 2rem;
+        margin-left: 45rem;
+        width: 850px;
+        height: 640px;
+        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+    }
+    .send{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .partfinal{
+        width: auto;
+        height: 40px;
+        margin-top: 65rem;
+        padding: 2rem 0rem;
+        display: flex;
+        flex-direction: row;
+        color: var(--color6);
+    }
+    .partfinal h1{
+        width: auto;
+        height: 64px;
+        margin-left: 2rem;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 64px;
+    }
+    .section{
+        width: 1920px;
+        height: 900px;
+        padding: 2rem 4rem;
+    }
+    .final{
+
+        width: auto;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .miniparrafo{
+        width: 270px;
+        font-size: 15px;
+        margin-left: 2rem;
+        font-weight: 400;
+        flex-direction: column;
+    }
+    
+    .numero{
+        margin-top: 2rem;
+        width: 200px;
+        margin-left: 5rem;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    .correo{
+        margin-top: 2rem;
+        width: 200px;
+        margin-left: 5rem;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    .direccion{
+        margin-top: 2rem;
+        width: 200px;
+        margin-left: 5rem;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Rubik";
+        font-style: normal;
+        line-height: 100%;
+    }
+    
+    .imagengr{
+        margin: 2rem;
+        margin-left: 60rem;
+        width: 850px;
+        height: 640px;
+        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+    }
+    .send{
+        width: 250px;
+        height: 250px;
+    }
+}

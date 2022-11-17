@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+
+}
+
+html {
+    font-size: 10px;
+    font-family:'Rubik', sans-serif;
+}
+
+
+:root {
+    --color1 : rgb(226, 226, 226);
+    --color2 : rgba(31,37,50,1.0);
+    --color3 : rgba(88,92,102,1.0);
+    --color4 : rgba(248,248,248,1.0);
+    --color5 : rgb(0, 0, 0);
+    --color6 : #333333;
+}
+

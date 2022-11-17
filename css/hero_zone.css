@@ -1,0 +1,452 @@
+.section{
+    width: 1920px;
+    height: 900px;
+    padding: 2rem 4rem;
+}
+.hero_zone{
+    width: auto;
+    height: 690px;
+    display: flex;
+
+}
+.hello1{
+    width:750px;
+    height: 640px;
+    padding: 1rem;
+    flex-direction: row;
+    color: var(--color6);
+}
+
+.hello{
+    margin: 28px;
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.im{
+    width: 700px;
+    margin: 28px;
+    font-size: 72px;
+    font-weight: 400;
+}
+.designer{
+    width: auto;
+    margin: 19px;
+    font-size: 45px;
+    font-weight: 400;
+}
+.course{
+    width: auto;
+    margin: 19px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.foto{
+    margin: 2rem;
+    margin-left: 0rem;
+    width: 850px;
+    height: 640px;
+    flex-direction: row;
+}
+.chica{
+    width: 650px;
+    height: 640px;
+}
+
+
+.redes{
+    width: 1600px ;
+    display: flex;
+    flex-direction: row;
+}
+.facebook{
+    height: 40px;
+    padding: 7px;
+    flex-direction: row;
+}
+.linkedin{
+    height: 40px;
+    padding: 7px ;
+    flex-direction: row;
+}
+.behance{
+    height: 40px;
+    padding: 7px ;
+    flex-direction: row;
+}
+.twitter{
+    height: 40px;
+    padding: 7px ;
+    flex-direction: row;
+}
+.dribble{
+    height: 40px;
+    padding: 7px ;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width:1920px) {
+    body{
+
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .hero_zone{
+        width: auto;
+        height: 690px;
+        display: flex;
+    }
+    .hello1{
+        width: auto;
+        height: 640px;
+        padding: 1rem;
+        flex-direction: row;
+        color: var(--color6);
+    }
+    
+    .hello{
+        margin: 28px;
+        font-size: 34px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .im{
+        width: auto;
+        margin: 28px;
+        font-size: 72px;
+        font-weight: 400;
+    }
+    .designer{
+        width: auto;
+        margin: 19px;
+        font-size: 38px;
+        font-weight: 400;
+    }
+    .course{
+        width: auto;
+        margin: 19px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .foto{
+        margin-left: 0rem;
+        width: auto;
+        height: 640px;
+        flex-direction: row;
+    }
+    .chica{
+        width: 650px;
+        height: 640px;
+    }
+    .redes{
+        width: auto;
+        padding: 3rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .facebook{
+        width: auto;
+        height: 38px;
+        flex-direction: row;
+    }
+    .linkedin{
+        margin-left: 1rem;
+        width: auto;
+        height: 30px;
+        flex-direction: row;
+    }
+    .behance{
+        width: auto;
+        height: 38px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    .twitter{
+        width: auto;
+        height: 30px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    .dribble{
+        width: auto;
+        height: 30px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    
+}
+@media screen and (max-width: 1152px) {
+    .hero_zone{
+        width: auto;
+        height: 710px;
+        display: flex;
+    }
+    .hello1{
+        width: auto;
+        height: 640px;
+        padding: 1rem;
+        flex-direction: row;
+        color: var(--color6);
+    }
+    
+    .hello{
+        margin: 28px;
+        font-size: 34px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .im{
+        width: auto;
+        margin: 28px;
+        font-size: 70px;
+        font-weight: 400;
+    }
+    .designer{
+        width: auto;
+        margin: 19px;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .course{
+        width: auto;
+        margin: 19px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .foto{
+        margin-left: 0rem;
+        width: auto;
+        height: 400px;
+        flex-direction: row;
+    }
+    .chica{
+        width: auto;
+        height: 400px;
+    }
+    .redes{
+        width: auto;
+        padding: 3rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .facebook{
+        width: auto;
+        height: 35px;
+        flex-direction: row;
+    }
+    .linkedin{
+        margin-left: 1rem;
+        width: auto;
+        height: 28px;
+        flex-direction: row;
+    }
+    .behance{
+        width: auto;
+        height: 35px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    .twitter{
+        width: auto;
+        height: 28px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    .dribble{
+        width: auto;
+        height: 28px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+             
+    }
+    .hero_zone{
+        width: auto;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hello1{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        color: var(--color6);
+    }
+    
+    .hello{
+        margin: 25px;
+        font-size: 25px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .im{
+        width: auto;
+        margin: 25px;
+        font-size: 55px;
+        font-weight: 400;
+    }
+    .designer{
+        width: auto;
+        margin: 17px;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .course{
+        width: auto;
+        margin: 17px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .foto{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .chica{
+        width: 300px;
+        height: auto;
+
+    }
+    .redes{
+        width: auto;
+        padding: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .facebook{
+        margin-top: 2rem;
+        width: auto;
+        height: 35px;
+        flex-direction: row;
+    }
+    .linkedin{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        width: auto;
+        height: 28px;
+        flex-direction: row;
+    }
+    .behance{
+        margin-top: 2rem;
+        width: auto;
+        height: 35px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    .twitter{
+        margin-top: 2rem;
+        width: auto;
+        height: 28px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    .dribble{
+        margin-top: 2rem;
+        width: auto;
+        height: 28px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+             
+    }
+    .hero_zone{
+        width: auto;
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hello1{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        color: var(--color6);
+    }
+    
+    .hello{
+        margin: 25px;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .im{
+        width: auto;
+        margin: 25px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .designer{
+        width: auto;
+        margin: 17px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .course{
+        width: auto;
+        margin: 17px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .foto{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .chica{
+        width: 200px;
+        height: auto;
+
+    }
+    .redes{
+        width: auto;
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .facebook{
+        margin-top: 1rem;
+        width: auto;
+        height: 30px;
+        flex-direction: row;
+    }
+    .linkedin{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: auto;
+        height: 23px;
+        flex-direction: row;
+    }
+    .behance{
+        margin-top: 1rem;
+        width: auto;
+        height: 30px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    .twitter{
+        margin-top: 1rem;
+        width: auto;
+        height: 23px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+    .dribble{
+        margin-top: 1rem;
+        width: auto;
+        height: 23px;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+}

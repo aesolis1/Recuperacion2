@@ -1,0 +1,108 @@
+.projectos {
+    width: auto;
+    height: 616px;
+    padding: 2rem 4rem;
+   
+}
+.project{
+    width: auto;
+    height: 356px;
+    margin: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.mass{
+    margin: 80px;
+    font-size: 64px;
+}
+.letras{
+    margin: 80px;
+    font-size: 24px;
+}
+
+@media screen and (max-width:1920px) {
+    body{     
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .projectos {
+        margin-top: 7rem;
+        width: 1390px;
+        height: 350px;
+        padding: 1rem 1.5rem;
+    }
+    .project{
+        width: 1380px;
+        height: 356px;
+        margin: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .mass{
+        margin: 10px;
+        font-size: 55px;
+    }
+    .letras{
+        margin: 10px;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width:1152px) {
+    .projectos{
+    width: 1152px;
+    height: 300px;
+    padding: 3rem;
+    }
+    .project {
+    width: 1100px;
+    margin: 0px;
+    }
+    .mass{
+    margin: 50px;
+    }
+    .letras {
+    margin: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .projectos{
+        width: 768px;
+        height: 200px;
+        padding: 20px;
+      }
+      .project{
+        width: 730px;
+        height: 150px;
+        margin: 0px;
+      }
+      .mass{
+        font-size: 40px;
+        margin: 25px;
+      }
+      .letras{
+        font-size: 18px;
+        margin: 25px;
+      }
+}
+@media screen and (max-width:320px) {
+    .projectos{
+        width: 320px;
+        height: 700px;
+        padding: 15px;
+       }
+       .project{
+        width: 280px;
+        height: 650px;
+        text-align: center;
+        flex-direction: column;
+       }
+       .mass{
+        font-size: 50px;
+       }
+}

@@ -1,0 +1,119 @@
+.img{
+    width: auto;
+}
+
+.row{
+    display: flex;
+    padding: 10px 250px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column{
+    width: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column img{
+    width: auto;
+  margin-top: 22px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1920px){
+    body{
+
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .body{
+    }
+}
+
+@media screen and (max-width: 1152px){
+
+    .img{
+        width: auto;
+    }
+    
+    .row{
+
+        display: flex;
+        padding: 5px 175px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .column{
+        width: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .column img{
+      width: auto;
+      margin-top: 22px;
+      margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .img{
+        width: auto;
+    }
+    
+    .row{
+        display: flex;
+        padding: 10px 250px;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .column{
+        width: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    }
+    
+    .column img{
+      width: auto;
+      margin-top: 22px;
+      margin-left: 5px;
+    }
+}
+@media screen and (max-width: 327px){
+    .img{
+        width: auto;
+    }
+    
+    .row{
+        margin-top: 1rem;
+        margin-left: -8rem;
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+    }
+    
+    .column{
+        width: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    }
+    
+    .column img{
+      width: 30rem;
+      margin-top: 22px;
+      margin-left: 5px;
+    }
+}

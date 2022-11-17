@@ -1,0 +1,480 @@
+.testimonial{
+    width: 1920px;
+    height: 5rem;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.testimonial p{
+    
+    color:  #333333;
+    font-style: normal;
+    font-size: 40px; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+}
+
+
+.client{
+    width: 1920px;
+    height: 65rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.comillas{
+    width: 85rem;
+    height: 4rem;
+
+}
+
+.comillas h1{
+    width: 100%;
+    height: 3rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 88px;
+}
+.comillas h2{
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 47px;
+}
+.comillas p{
+    width: 5rem;
+    height: 3rem;
+    margin-top: 0px;
+    margin-left: 80rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 88px;
+}
+
+.comillas h3{
+    width: 934px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #333333;
+    margin-top: 2rem;
+}
+.comillas h4{
+    width: 934px;
+    height: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #333333;
+    margin-top: 0rem;
+}
+
+
+.señor{
+    width: 530px;
+    height: 600px;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px;
+    gap: 4px;
+}
+.señor img{
+    width: 450px;
+    height: 600px;
+}
+@media screen and (max-width:1920px) {
+    body{     
+    }
+}
+
+@media screen and (max-width:1440px) {
+
+    .testimonial{
+        width: 1440px;
+        height: 5rem;
+        margin-top: 170px;
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonial p{
+        color:  #333333;
+        font-style: normal;
+        font-size: 40px; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 54px;
+    }
+    .client{
+        width: 1440px;
+        height: 65rem;
+        margin-top: 3rem;
+        margin-left: 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    .comillas{
+        width: auto;
+        height: 4rem;
+    
+    }
+    .comillas h1{
+        width: auto;
+        height: 3rem;
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 88px;
+    }
+    .comillas h2{
+        width: auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 47px;
+    }
+    .comillas p{
+        width: auto;
+        height: 3rem;
+        margin-top: 0px;
+        margin-left: 80rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 88px;
+    }
+    .comillas h3{
+        width: auto;
+        height: 33px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33px;
+    
+        color: #333333;
+        margin-top: 2rem;
+    }
+    .comillas h4{
+        width: auto;
+        height: 33px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+    
+        color: #333333;
+        margin-top: 0rem;
+    }
+    .señor{
+        width: 530px;
+        height: 600px;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4px;
+        gap: 4px;
+    }
+    .señor img{
+        width: 450px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1552px) {
+    .testimonial{
+        width: 1152px;
+        height: 5rem;
+        margin-top: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonial p{
+        color:  #333333;
+        font-style: normal;
+        font-size: 40px; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 54px;
+    }
+    .client{
+        width: 1152px;
+        height: 68rem;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .comillas{
+        width: 500px;
+        height: 4rem;
+    
+    }
+    .comillas h1{
+        width: auto;
+        height: 3rem;
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 88px;
+    }
+    .comillas h2{
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 47px;
+    }
+    .comillas p{
+        height: 3rem;
+        margin-top: 0px;
+        margin-left: 45rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 88px;
+    }
+    .comillas h3{
+        width: auto;
+        height: 33px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33px;
+    
+        color: #333333;
+        margin-top: 2rem;
+    }
+    .comillas h4{
+        width: auto;
+        height: 33px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+    
+        color: #333333;
+        margin-top: 0rem;
+    }
+    .señor{
+        width: 530px;
+        height: 620px;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4px;
+        gap: 4px;
+    }
+    .señor img{
+        width: 450px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .testimonial{
+        width: 768px;
+        height: 5rem;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonial p{
+        color:  #333333;
+        font-style: normal;
+        font-size: 40px; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 54px;
+    }
+    .señor{
+        width: auto;
+        height: 300px;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px;
+        gap: 4px;
+    }
+    .señor img{
+        width: 250px;
+        height: 300px;
+    }
+    .client{
+        width: 768px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .comillas{
+        width: 400px;
+        height: 0rem;
+    }
+    .comillas h1{
+        width: 400px;
+        height: 2rem;
+        margin-top: 0px;
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 88px;
+    }
+    .comillas h2{
+        width: 768px;
+        margin-top: -75px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 47px;
+    }
+    .comillas p{
+        height: 3rem;
+        margin-top: 0px;
+        margin-left: 70rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 88px;
+    }
+    .comillas h3{
+        width: auto;
+        height: 33px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 33px;
+    
+        color: #333333;
+        margin-top: 2rem;
+    }
+    .comillas h4{
+        width: auto;
+        height: 33px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+    
+        color: #333333;
+        margin-top: 0rem;
+    }
+
+}
+@media screen and (max-width:320px) {
+    .testimonial{
+        width: 320px;
+        height: 10rem;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonial p{
+        color:  #333333;
+        font-style: normal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .señor{
+        width: auto;
+        height: 300px;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px;
+        gap: 4px;
+    }
+    .señor img{
+        width: 250px;
+        height: 300px;
+    }
+    .client{
+        width: 320px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .comillas{
+        width: 320px;
+        height: 0rem;
+    }
+    .comillas h1{
+        width: 320px;
+        height: 2rem;
+        margin-top: 4px;
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 88px;
+    }
+    .comillas h2{
+        width: 320px;
+        margin-top: -50px;
+        font-style: normal;
+        font-size: 25px;
+    }
+    .comillas p{
+        height: 3rem;
+        margin-top: 0px;
+        margin-left: 25rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 95px;
+        line-height: 88px;
+    }
+    .comillas h3{
+        width: auto;
+        height: 33px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 33px;
+    
+        color: #333333;
+        margin-top: 2rem;
+    }
+    .comillas h4{
+        width: auto;
+        height: 33px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+    
+        color: #333333;
+        margin-top: 0rem;
+    }
+}
